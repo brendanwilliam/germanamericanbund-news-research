@@ -24,11 +24,11 @@ ga_nazi <- ga_nazi_raw %>%
 ga_full <- full_join(ga_full_raw, ga_kuhn) %>%  # Merging Kuhn data
   full_join(ga_nazi) %>%  # Merging Nazi data
   replace(is.na(.), FALSE) %>%
-  mutate(date = as.Date(pubdate, '%b %d, %Y')) %>%  # Reformatting dates
-  mutate(weekday = format(date, '%a')) %>%
-  mutate(month = format(date, '%b')) %>%
+  mutate(dateform = as.Date(pubdate, '%b %d, %Y')) %>% # Reformatting dates
+  mutate(date = as.character(dateform)) %>% 
+  mutate(weekday = format(dateform, '%a')) %>%
   mutate(pubtitle = gsub("\\s*\\([^\\)]+\\)", "", pubtitle)) %>%  # Eliminating years from newspaper titles
-  select(Title, Abstract, isKuhn, isNazi, date, year, month, weekday, StoreId, 
+  select(Title, Abstract, documentType, isKuhn, isNazi, date, weekday, StoreId, 
          issn, startPage, placeOfPublication, pubtitle, DocumentURL, 
          FindACopy) %>%
   arrange(ymd(date))
