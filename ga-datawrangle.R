@@ -36,3 +36,4 @@ ga_full <- full_join(ga_full_raw, ga_kuhn) %>%  # Merging Kuhn data
 ga_full_json = toJSON(ga_full)
 write(ga_full_json, 'germanamerican-newsdata-full.json')
 write.csv(ga_full, 'germanamerican-newsdata-full.csv')
+
