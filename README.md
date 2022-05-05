@@ -1,6 +1,7 @@
-# Researching Newspaper Coverage of 1930s German-American Nazi Movements
-### Author: Brendan Keane
-### Purpose: Analyze how press coverage of 1930s German-American Nazi movements relate to the rise and fall of the German-Aermican Bund and their leader Fritz Kuhn.
+# Newspaper Coverage of 1930s German-American Nazi Movements
+A project analyzing how newspaper coverage of 1930s German-American Nazi movement relates to the rise and fall of the German-American Bund and their leader Fritz Kuhn.
+
+Created by _Brendan Keane_
 
 ## Data Sources
 All the CSV data in this repository comes from the following ProQuest queries:
