@@ -1,5 +1,5 @@
 # Newspaper Coverage of the German-American Bund under Fritz Kuhn
-A project analyzing how newspaper coverage of 1930s German-American Nazi movement relates to the fall of the German-American Bund
+A project analyzing how newspaper coverage relates to the fall of the German-American Bund
 
 Created by _Brendan Keane_
 
