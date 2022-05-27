@@ -8,8 +8,11 @@ message: >-
   353 Labor and Capitalism, taught at the University
   of Washington.
 type: dataset
+date-released: 2022-05-27
+repository-code: "https://github.com/brendanwilliam/germanamericanbund-news-research"
 authors:
   - given-names: Brendan
     name-particle: W
     family-names: Keane
     email: bwkeane@uw.edu
+
